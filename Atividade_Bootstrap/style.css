@@ -1,0 +1,45 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.bg-dark-custom {
+    background-color: #1a1a1a !important;
+}
+
+.brand-logo {
+    color: #c89d5c !important;
+}
+
+.btn-comprar {
+    background-color: #bfa181 !important;
+    border: none !important;
+}
+
+.btn-comprar:hover {
+    background-color: #a88d6e !important;
+}
+
+.hero-img {
+    background-color: #bfa181;
+    height: 350px;
+    border-radius: 6px;
+}
+
+.btn-carrinho {
+    background-color: #0d6efd !important;
+    border: none !important;
+}
+
+.subtitle-cor {
+    color: #bfa181 !important;
+}
+
+.avatar-depoimento {
+    width: 40px;
+    height: 40px;
+    background-color: #bfa181 !important;
+}
+
+.faq-container {
+    max-width: 800px;
+}
