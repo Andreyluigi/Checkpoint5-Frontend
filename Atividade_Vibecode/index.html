@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura — Sono Profundo & Ritmo Circadiano</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sombra e brilho noturno de fundo -->
+    <div class="night-sky-bg"></div>
+
+    <!-- Header / Nav -->
+    <header class="header">
+        <div class="container nav-wrapper">
+            <a href="#" class="logo">
+                <span class="moon-icon">☾</span> Aura
+            </a>
+            <nav class="nav-menu">
+                <a href="#como-funciona">Como funciona</a>
+                <a href="#calculadora">Calculadora de Sono</a>
+                <a href="#sons">Paisagens Sonoras</a>
+                <a href="#planos">Planos</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#planos" class="btn-glow">Baixar para iOS/Android</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="pill-badge">
+                    <span class="dot-soft"></span> Otimizado para o ciclo REM
+                </div>
+                <h1>Adormeça em minutos. <br><em>Acorde sem cansaço.</em></h1>
+                <p class="hero-desc">
+                    O Aura utiliza frequências delta desaceleradas e áudio psicoacústico adaptativo para desacelerar seus batimentos e guiar sua mente para o sono profundo.
+                </p>
+                <div class="hero-actions">
+                    <a href="#sons" class="btn-primary">Testar Áudio de Amostra</a>
+                    <a href="#calculadora" class="btn-ghost">Calcular meu ciclo</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <strong>89%</strong>
+                        <span>pegam no sono em < 15 min</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <strong>4.9/5</strong>
+                        <span>+40 mil avaliações no iOS</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Player Hero Integrado -->
+            <div class="hero-card-preview">
+                <div class="sleep-card">
+                    <div class="sleep-card-header">
+                        <span class="sleep-status">MODO CREPÚSCULO ATIVO</span>
+                        <span class="time-left">22:30</span>
+                    </div>
+                    <div class="frequency-visual">
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                        <div class="wave-bar"></div>
+                    </div>
+                    <div class="track-details">
+                        <h3>Vento Solar & Maré Baixa</h3>
+                        <p>Frequência Delta 2.5Hz • Duração 45min</p>
+                    </div>
+                    <button class="btn-play-preview">▶ Ouvir frequência prévia</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prova Social / Mídia -->
+    <div class="press-bar">
+        <div class="container press-flex">
+            <span>Destaque em saúde e bem-estar:</span>
+            <div class="press-logos">
+                <span>DORMIR & SAÚDE</span>
+                <span>NEUROSCIENCE TODAY</span>
+                <span>REVISTA RITMO</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Funcionalidade Interativa: Calculadora de Ciclo -->
+    <section id="calculadora" class="section-calc">
+        <div class="container">
+            <div class="section-head text-center">
+                <h2>Calculadora de Despertar Circadiano</h2>
+                <p>O sono humano acontece em ciclos de 90 minutos. Escolha o horário em que precisa acordar para saber a hora exata de ir para a cama sem acordar grogue.</p>
+            </div>
+
+            <div class="calc-box">
+                <div class="calc-input-group">
+                    <label for="wake-time">Que horas você precisa acordar?</label>
+                    <input type="time" id="wake-time" value="06:30">
+                </div>
+                <div class="calc-results">
+                    <p class="calc-title">Horários ideais para adormecer:</p>
+                    <div class="time-cards">
+                        <div class="time-badge best">
+                            <strong>23:30</strong>
+                            <span>5 Ciclos (7h 30m)</span>
+                        </div>
+                        <div class="time-badge">
+                            <strong>01:00</strong>
+                            <span>4 Ciclos (6h 00m)</span>
+                        </div>
+                        <div class="time-badge">
+                            <strong>22:00</strong>
+                            <span>6 Ciclos (9h 00m)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Diferenciais -->
+    <section id="como-funciona" class="section-features">
+        <div class="container">
+            <div class="section-head">
+                <span class="subtext">A CIÊNCIA DO DESCANSO</span>
+                <h2>Por que sons comuns não funcionam para todos?</h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="f-card">
+                    <div class="f-icon">✦</div>
+                    <h3>Som Somático Progressivo</h3>
+                    <p>O som diminui o ritmo (BPM) de forma imperceptível ao longo de 30 minutos, sincronizando seu coração com o estado de repouso.</p>
+                </div>
+                <div class="f-card">
+                    <div class="f-icon">🌑</div>
+                    <h3>Ruídos Noturnos Filtrados</h3>
+                    <p>Sem picos agudos. Áudios gravados em frequências graves para mascarar barulhos da rua, vizinhos ou ronco.</p>
+                </div>
+                <div class="f-card">
+                    <div class="f-icon">🛌</div>
+                    <h3>Desligamento Circadiano</h3>
+                    <p>Quando os sensores do celular detectam que você parou de se mover, o áudio transiciona suavemente para o silêncio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria de Paisagens Sonoras -->
+    <section id="sons" class="section-soundscapes">
+        <div class="container">
+            <div class="section-head text-center">
+                <h2>Explore a Biblioteca de Paisagens</h2>
+                <p>Mais de 120 composições originais criadas por neuroacústicos.</p>
+            </div>
+
+            <div class="sounds-grid">
+                <div class="sound-card">
+                    <div class="sound-tag">FAVORITO PARA ANSIEDADE</div>
+                    <h3>Chuva em Vidro de Cabana</h3>
+                    <p>Gotas constantes em tom grave para desacelerar pensamentos intrusivos.</p>
+                    <div class="sound-footer">
+                        <span>45 min</span>
+                        <a href="#" class="btn-sm">Ouvir</a>
+                    </div>
+                </div>
+
+                <div class="sound-card">
+                    <div class="sound-tag">SONO PROFUNDO</div>
+                    <h3>Ressonância de Órbita</h3>
+                    <p>Graves profundos imitadores de ruído rosa espacial para sono contínuo.</p>
+                    <div class="sound-footer">
+                        <span>60 min</span>
+                        <a href="#" class="btn-sm">Ouvir</a>
+                    </div>
+                </div>
+
+                <div class="sound-card">
+                    <div class="sound-tag">RELAXAMENTO MUSCULAR</div>
+                    <h3>Florestas da Noruega à Noite</h3>
+                    <p>Vento suave em pinheiros com biossons de baixa frequência.</p>
+                    <div class="sound-footer">
+                        <span>30 min</span>
+                        <a href="#" class="btn-sm">Ouvir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planos / Tabela -->
+    <section id="planos" class="section-pricing">
+        <div class="container">
+            <div class="section-head text-center">
+                <h2>Invista nas suas noites de descanso</h2>
+                <p>Cancele quando quiser. Teste 7 dias grátis sem cobrança imediata.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Plano Mensal</h3>
+                    <div class="price">R$ 21,90 <span>/ mês</span></div>
+                    <ul class="price-features">
+                        <li>✓ Acesso a 120+ áudios de sono</li>
+                        <li>✓ Timer de desligamento automático</li>
+                        <li>✕ Sem sincronização com relógio inteligente</li>
+                    </ul>
+                    <a href="#" class="btn-outline">Assinar Mensal</a>
+                </div>
+
+                <div class="price-card featured">
+                    <div class="badge-featured">MAIS POPULAR • 50% OFF</div>
+                    <h3>Plano Anual Nictalopia</h3>
+                    <div class="price">R$ 9,90 <span>/ mês</span></div>
+                    <p class="price-note">Faturado R$ 118,80 por ano</p>
+                    <ul class="price-features">
+                        <li>✓ Todo o catálogo ilimitado</li>
+                        <li>✓ Download off-line de áudios</li>
+                        <li>✓ Integração com Apple Health / Google Fit</li>
+                        <li>✓ Calculadora de ciclo circadiano ilimitada</li>
+                    </ul>
+                    <a href="#" class="btn-primary full">Iniciar 7 Dias Grátis</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="section-faq">
+        <div class="container small-container">
+            <h2 class="text-center mb-4">Dúvidas Frequentes</h2>
+            
+            <div class="faq-item">
+                <h4>Preciso usar fones de ouvido para funcionar?</h4>
+                <p>Para frequências binaurais sim, mas para as paisagens sonoras e ruídos filtrados você pode usar o próprio alto-falante do celular na cabeceira.</p>
+            </div>
+
+            <div class="faq-item">
+                <h4>O aplicativo consome muita bateria durante a noite?</h4>
+                <p>Não. O Aura é otimizado para rodar com a tela desligada e o timer desativa o processamento assim que você pega no sono.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">☾ Aura</a>
+                <p>Tecnologia e quietude para o seu ciclo biológico.</p>
+            </div>
+            <div class="footer-links">
+                <h5>Navegação</h5>
+                <a href="#como-funciona">Ciência</a>
+                <a href="#sons">Sons</a>
+                <a href="#calculadora">Ciclo de Sono</a>
+            </div>
+            <div class="footer-links">
+                <h5>Legal</h5>
+                <a href="#">Termos de Uso</a>
+                <a href="#">Privacidade</a>
+                <a href="#">Aviso Médico</a>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Aura Sleep Technologies. Não substitui tratamentos médicos para insônia crônica.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
