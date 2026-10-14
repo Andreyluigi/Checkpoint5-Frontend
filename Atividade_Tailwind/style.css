@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Work+Sans:wght@400;500;600&display=swap');
+
+:root {
+  --verde: #1B4332;
+  --offwhite: #EFE7D6;
+  --preto: #2A241C;
+  --vermelho: #9A3324;
+  --dourado: #A9895F;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: var(--offwhite);
+  color: var(--preto);
+}
+
+h1, h2, h3, h4, .font-serifa {
+  font-family: 'Fraunces', serif;
+}
+
+.bg-verde-p { background-color: var(--verde); }
+.bg-offwhite-p { background-color: var(--offwhite); }
+.bg-preto-p { background-color: var(--preto); }
+.bg-vermelho-p { background-color: var(--vermelho); }
+.bg-dourado-p { background-color: var(--dourado); }
+
+.txt-verde-p { color: var(--verde); }
+.txt-offwhite-p { color: var(--offwhite); }
+.txt-preto-p { color: var(--preto); }
+.txt-vermelho-p { color: var(--vermelho); }
+.txt-dourado-p { color: var(--dourado); }
+
+.borda-verde-p { border-color: var(--verde); }
+.borda-vermelho-p { border-color: var(--vermelho); }
+.borda-dourado-p { border-color: var(--dourado); }
